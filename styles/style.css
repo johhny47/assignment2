@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
+#miama-font{
+    font-family: 'Miama', sans-serif;
+    font-family:Miama;
+    font-size: 78px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 93.6px;
+    text-align: left;
+    }
+
+/* share style  */
+.body-decoration{
+    max-width: 1060px;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+}
+.btn{
+    height: 40px;
+    width: 180px;
+    border: none;
+    border-radius: 20px;
+    background-color: #E6533C;
+    color: aliceblue;
+    
+}
+p{
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.5px;
+text-align: left;
+color: #FFFFFF80;
+
+}
+
+/* navbar style  */
+.nav-bar{
+max-width: 1,060px;
+height:46px;
+display: flex;
+justify-content: space-between;
+/* border: 2px solid red; */
+
+}
+.nav-heading>h1{
+font-family: Inter;
+font-size: 36px;
+font-style: italic;
+font-weight: 800;
+text-align: left;
+color: #E6533C;
+margin-top: -1px;
+
+
+}
+.nav-button ul {
+    display: flex;
+    justify-content: space-around;
+    width: 465px;
+    height: 38px;
+    margin-top:3px;
+    gap: 47px; 
+    border:1px solid #777;
+    border-radius: 20px;
+
+}
+.nav-button ul li{
+    margin:auto 0;
+    list-style: none;
+}
+#link-btn{
+    background-color: black;
+    border: none;
+    color: white;
+}
+#home-style{
+    width: 92px;
+    height:34px;
+    margin-left: -55px;
+    background-color: orangered;
+    border-radius: 20px;
+    border: none;
+}
+.menu-icon{
+    display: none;
+    padding: 13px;
+}
+/* hero-secttion style */
+
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    height: 580px;
+    margin:auto;
+    background-color: black;
+    max-width: 1440px;
+
+}
+.hero-text{
+    width:47%;
+    height:440px;
+    margin-top: 10px;
+}
+.btn2{
+        background-color: black;
+        border: 2px solid white;
+        margin-left: 20px;
+    }
+.image{
+width: 349px;
+height: 580px;
+}
+.hero-text>h1{
+font-family: Inter;
+font-size: 78px;
+font-weight: 900;
+text-align: left;
+color: aliceblue;
+}
+
+.hero-img{
+    height: 550px;
+    width:100%;
+    background-image: url(../asset/Images\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.bonus{
+    height:98px;
+    width: 193px;
+    background-color:rgba(169, 162, 162, 0.5);
+    color: aliceblue;
+    border-radius: 10px;
+     /* padding: 20px; */ 
+    position: absolute;
+    top: 150px;
+    right:-60px;
+    /* padding-top: 30px; */
+}
+.bonus>h2{
+    margin-left: 40px;
+    margin-bottom: -10px;
+    font-size:30px;
+    font-weight: bolder;
+}
+.bonus>p{
+    margin-left: 40px;
+    font-size:small;
+    padding-top:0px;
+}
+.bonus-2{
+    height:96px;
+    width: 206px;
+    background-color:rgba(169, 162, 162, 0.5);
+    color: aliceblue;
+    border-radius: 10px;
+    /* padding: 40px; */
+    position: absolute;
+    bottom: 10px;
+    left:-100px;
+    margin-top:40px;
+    display: flex;
+    gap: 10px;
+}
+.bonus-2-text>h4{
+    margin-top: 30px;
+    margin-left: 0px;
+    font-size:25px;
+    font-weight: bolder;
+}
+.bonus-2-text>p{
+    margin-top:-30px;
+    margin-left: 0px;
+    font-size:small;
+}
+.dot{
+    height:30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #E6533C;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+/* responsive */
+@media screen and (max-width:576px){
+    #miama-font{
+       
+        font-size:36px;
+    }
+    .nav-button{
+    display: none;
+   }
+   .nav{
+    margin: 0 auto;
+   }
+   .nav-bar{
+    margin:0 30px;
+   }
+   .menu-icon{
+    display: block;
+   }
+   .hero-container{
+    flex-direction:column;
+   }
+   .hero-img{
+    margin-left:120px;
+    margin-top: 60px;
+   }
+   .hero-text{
+    height:500px;
+    width:50%;
+    margin-left:30px;
+
+   }
+   .hero-text>h1{
+    font-size:40px;
+    }
+    .hero-text h1 span{
+         font-size:40px;
+   }
+  
+   .button-container{
+    width:80vh;
+    display: flex;
+    justify-content: space-between;
+   
+   }
+   .bonus-2{
+    top:300px;
+   }
+   
+}
+
+  
