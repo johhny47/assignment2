@@ -83,4 +83,46 @@
        margin-bottom: 100px;
        
 }
+ /* exercise responsive */
+  .exercise-container{
+    margin-left:-130px;
+  }
+     .erercise-text{
+        margin-left: 200px;
+     }
+    .img-container{
+        width:353px;
+        height:253px;
+        margin: 0 auto;
+        margin-left:0px;
+        display: grid;
+        grid-template-columns: repeat(11,1fr);
+        grid-template-rows: repeat(11,1fr);
+    }
+    .img-container img{
+      width:100%;
+      height:100%;
+    
+    }
+    .img1{
+          grid-column: 1/span 6;
+          grid-row: 1/span 6;
+    }
+    .img2{
+        grid-column: 7/span 6 ;
+         grid-row: 1/span 6;
+        object-fit: none;
+        object-position:100%;}
+    .img3{
+         display: none;
+     }
+    .img4{
+        grid-column: 1/span 6;
+        grid-row: 7/span 6;}
+    .img5{
+        grid-column: 7/span 6;
+        grid-row: 7/span 6}
+    .img6{
+        display: none;}
+      
 }
