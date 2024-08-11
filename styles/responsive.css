@@ -196,15 +196,41 @@
 /* meet team style  */
 .team-img-container{
    width:353px;
-   height:1,188px;
+   height:900px;
    grid-template-columns: repeat(1,1fr);
    gap: 18px;
 }
 .team-text{
-    width:309px;
+width:309px;
 height:124px;
+}
+/* footer style  */
+.footer-container{
+ width: 393px;
+height: 986px;
+margin-top:1200px;
+margin-left: 20px;
 
+} 
+.text-container{
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 353px;
+height: 748px;
+
+
+} 
+.reserve-text{
+    margin-left: 70px;
+   color:#FFFFFF80;
+   ;
+}
+h4{
+font-family: Inter;
+font-size: 32px;
+font-weight: 700;
+line-height: 38.4px;
+text-align: left;
 
 }
-      
 }

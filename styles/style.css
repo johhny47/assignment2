@@ -435,5 +435,51 @@ table.table-container {
     height: 100%;
     border-radius: 18px;
   }
+  /* footer style start  */
+  .footer-container{
+    width: 1440px;
+    height: 420px;
+    margin: 0 auto;
+    border: 2px solid black;
+    color: aliceblue;
+    background-color: #FFFFFF1A;
+
+    }
+    .text-container{
+    width:1059px;
+    height: 249px;
+    margin: auto;
+    margin-top: 30px;
+    border: 2px solid black;
+     display: flex;
+     justify-content: space-between;
+    }
+    .footer-text1>h1{
+        color: #E6533C;
+        font-family: Inter;
+       font-size: 70px;
+       font-style: italic;
+       font-weight: 800;
+       line-height: 84px;
+       text-align: left;
+       margin-top: 10px;
+}
+.footer-text1>p{
+    margin-top: -50px;
+}
+    .footer-link{
+        margin-left: -40px;
+        margin-top: 10px;
+    }
+    .footer-link>ul{
+        list-style: none;
+    }
+    .footer-link li{
+        margin-top: 10px;
+    }
+    .reserve-text{
+        
+        margin-left:600px;
+    }
   
   
