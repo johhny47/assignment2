@@ -158,40 +158,53 @@
         grid-row: 7/span 6}
     .img6{
         display: none;}
-      
+        .bmi-heading{
+            margin-left:0px;
+        }
+        .bmi-heading>p{
+            margin-top: 10px;
+        }
+        /* bmi section style  */
+        .section-container{
+            flex-direction: column;
+            margin-left: 40px;
+            width: 394px;
+            height: 772px;
+        }
+        .calculator-chart>h2{
+            margin-top: 40px;
+        }
+        
+        .calculator-chart{
+            width: 70%;
+            margin-left:-50px;
+           
+        }
+        .bmi{
+            width:354px;
+            height:395px;
+        }
+        .bmi>p{
+            margin-top: -30px;
+        }
+        .input-box{
+            width: 353px;
+            height:168px ;
+            grid-template-columns: 11rem 11rem;
+            margin-top: -0px;
+        }
+/* meet team style  */
+.team-img-container{
+   width:353px;
+   height:1,188px;
+   grid-template-columns: repeat(1,1fr);
+   gap: 18px;
 }
-.bmi-heading{
-    margin-left:0px;
-}
-.bmi-heading>p{
-    margin-top: 10px;
-}
-/* bmi section style  */
-.section-container{
-    flex-direction: column;
-    margin-left: 40px;
-    width: 394px;
-    height: 772px;
-}
-.calculator-chart>h2{
-    margin-top: 40px;
-}
+.team-text{
+    width:309px;
+height:124px;
 
-.calculator-chart{
-    width: 70%;
-    margin-left:-50px;
-   
+
 }
-.bmi{
-    width:354px;
-    height:395px;
-}
-.bmi>p{
-    margin-top: -30px;
-}
-.input-box{
-    width: 353px;
-    height:168px ;
-    grid-template-columns: 11rem 11rem;
-    margin-top: -0px;
+      
 }
