@@ -15,6 +15,11 @@
     line-height: 93.6px;
     text-align: left;
     }
+body{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}    
 
 /* share style  */
 .body-decoration{
@@ -311,3 +316,92 @@ background-image: url(../asset/run.jpg);
    top:5%;
    left:10%;
 }
+.bmi-heading{
+   margin: 130px auto;
+   margin-left: 30%;
+}
+.bmi-heading>p{
+    margin-top: -40px;
+}
+/* bmi calculator style  */
+.bg{
+    background-color:#222222;
+}
+
+h2{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 600;
+}
+.calculator-chart>h2{
+  margin-top: -60px;
+}
+.table-container{
+    margin-top: 50px;
+}
+
+p{
+  color: #fff;
+  opacity: 0.8;
+}
+
+.section-container{
+    width:1200px;
+    height: 487px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.calculator-chart{
+    width: 80%;
+    margin-bottom:20px;
+   
+}
+
+.bmi{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 00px;
+}
+
+table.table-container {
+    width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #abb2bf;
+    border-style: solid;
+    color: #fff;
+   
+  }
+
+  table.table-container td,
+  table.table-container th {
+    border-width: 2px;
+    border-color: #abb2bf;
+    border-style: solid;
+    padding: 10px;
+  }
+
+  table.table-container thead {
+    background-color: transparent;
+  }
+  table.table-container td {
+    opacity: 0.8;
+  }
+
+  .input-box{
+    display: grid;
+    grid-template-columns: 15rem 15rem;
+    gap: 10px;
+  }
+
+  input{
+    background: #383838;
+    outline: 0;
+    border: 0;
+    padding: 12px 10px;
+    border-radius: 8px;
+  }

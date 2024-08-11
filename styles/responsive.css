@@ -29,7 +29,7 @@
     flex-direction:column;
    }
    .hero-img{
-    margin-left:120px;
+    margin-left:80px;
     margin-top: 60px;
    }
    .hero-text{
@@ -51,9 +51,42 @@
     justify-content: space-between;
    
    }
-   .bonus-2{
-    top:300px;
+   .bonus{
+    width:145px;
+    height: 74px;
+    top: 150px;
+    right:-30px;
    }
+   .bonus h2 {
+    margin-top:10px;
+    margin-left: 30px;
+   }
+   .bonus>p{
+    margin-top:0px;
+    margin-left: 20px;
+   }
+   .bonus-2{
+    width:155px;
+    height:72px;
+    top:300px;
+    left:-40px;
+   }
+   
+.bonus-2-text>h4{
+    margin-top: 10px;
+    margin-left:0px;
+    margin-bottom:00px;
+    font-size:20px;
+    font-weight: bolder;
+}
+.bonus-2-text>p{
+    margin:00px;
+    margin-left: 0px;
+    font-size:small;
+}
+.dot{
+    margin:20px 0px 0px 20px;
+}
    /* change habit responsive */
    .chng-habit-container{
     margin-top: 550px;
@@ -67,6 +100,7 @@
     .run-extra-container{
         flex-direction: column;
         margin-top: 100px;
+        margin-left:20px;
         width: 353px;
         height: 531px;
 }
@@ -125,4 +159,39 @@
     .img6{
         display: none;}
       
+}
+.bmi-heading{
+    margin-left:0px;
+}
+.bmi-heading>p{
+    margin-top: 10px;
+}
+/* bmi section style  */
+.section-container{
+    flex-direction: column;
+    margin-left: 40px;
+    width: 394px;
+    height: 772px;
+}
+.calculator-chart>h2{
+    margin-top: 40px;
+}
+
+.calculator-chart{
+    width: 70%;
+    margin-left:-50px;
+   
+}
+.bmi{
+    width:354px;
+    height:395px;
+}
+.bmi>p{
+    margin-top: -30px;
+}
+.input-box{
+    width: 353px;
+    height:168px ;
+    grid-template-columns: 11rem 11rem;
+    margin-top: -0px;
 }
