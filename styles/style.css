@@ -59,8 +59,6 @@ max-width: 1,060px;
 height:46px;
 display: flex;
 justify-content: space-between;
-/* border: 2px solid red; */
-
 }
 .nav-heading>h1{
 font-family: Inter;
@@ -152,11 +150,9 @@ color: aliceblue;
     background-color:rgba(169, 162, 162, 0.5);
     color: aliceblue;
     border-radius: 10px;
-     /* padding: 20px; */ 
     position: absolute;
     top: 150px;
     right:-60px;
-    /* padding-top: 30px; */
 }
 .bonus>h2{
     margin-left: 40px;
@@ -175,7 +171,6 @@ color: aliceblue;
     background-color:rgba(169, 162, 162, 0.5);
     color: aliceblue;
     border-radius: 10px;
-    /* padding: 40px; */
     position: absolute;
     bottom: 10px;
     left:-100px;
@@ -236,6 +231,10 @@ color: aliceblue;
 }
 img{
     background-size: cover;
+}
+.cart-text>h4{
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 /* run extra style */
@@ -316,13 +315,43 @@ background-image: url(../asset/run.jpg);
    top:5%;
    left:10%;
 }
+.img-text1{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.img-text2{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.img-text3{
+    position: absolute;
+    bottom:20px;
+    left:40px;
+}
+.img-text4{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.img-text5{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.img-text6{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
 .bmi-heading{
-   margin: 130px auto;
-   margin-left: 30%;
-}
-.bmi-heading>p{
-    margin-top: -40px;
-}
+    margin: 130px auto;
+    margin-left: 30%;
+ }
+ .bmi-heading>p{
+     margin-top: -40px;
+ }
 /* bmi calculator style  */
 .bg{
     background-color:#222222;
@@ -397,7 +426,6 @@ table.table-container {
     grid-template-columns: 15rem 15rem;
     gap: 10px;
   }
-
   input{
     background: #383838;
     outline: 0;
@@ -405,6 +433,24 @@ table.table-container {
     padding: 12px 10px;
     border-radius: 8px;
   }
+  .select1{
+    background: #383838;
+    border:none;
+    border-radius: 8px;
+    color:#5c5c5c;
+    padding: 12px 10px;
+    
+  }
+  .select2{
+    height:48px;
+    width:490px;
+    background: #383838;
+    border:none;
+    border-radius: 8px;
+    color:#5c5c5c;
+    padding: 12px 10px;
+  }
+ 
   /* meet team style  */
   .team-container{
     width: 1060px;
@@ -424,10 +470,14 @@ table.table-container {
     grid-template-columns: repeat(3,1fr);
     
   }
+  .team-img-text{
+    color: #FFFFFF;
+  }
   .team-img1{
     width: 326.67px;
    height: 272px;
    border-radius:18px;
+   position: relative;
 
   }
   .team-img1 img{
@@ -435,6 +485,29 @@ table.table-container {
     height: 100%;
     border-radius: 18px;
   }
+  .team-img1 p{
+    margin-top:00px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+  }
+  .team-img1 h3{
+    color: white;
+    margin: 00px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 24px;
+    text-align: left;
+     }
+.team-img-text{
+    margin-bottom:130px;
+    position: absolute;
+    top:220px ;
+    left:20px;
+}
   /* footer style start  */
   .footer-container{
     width: 1440px;
@@ -448,11 +521,10 @@ table.table-container {
     .text-container{
     width:1059px;
     height: 249px;
-    margin: auto;
+    margin-left:30px;
     margin-top: 30px;
-    border: 2px solid black;
-     display: flex;
-     justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
     }
     .footer-text1>h1{
         color: #E6533C;

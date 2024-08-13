@@ -193,6 +193,9 @@
             grid-template-columns: 11rem 11rem;
             margin-top: -0px;
         }
+        .select2{
+            width: 360px;
+        }
 /* meet team style  */
 .team-img-container{
    width:353px;
